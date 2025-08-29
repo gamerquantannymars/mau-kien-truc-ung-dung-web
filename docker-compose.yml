@@ -4,21 +4,21 @@ services:
     build:
       context: ./service-a
     ports:
-      - '3001:3000'
+      - '3001:3000'  # Expose service-a on port 3001
 
   service-b:
     build:
       context: ./service-b
     ports:
-      - '3002:3000'
+      - '3002:3000'  # Expose service-b on port 3002
 
   service-c:
     build:
       context: ./service-c
     ports:
-      - '3003:3000'
+      - '3003:3000'  # Expose service-c on port 3003
 
   mongo:
     image: mongo
     ports:
-      - '27017:27017'
+      - '27017:27017'  # Expose MongoDB on default port 27017
