@@ -22,3 +22,9 @@ services:
     image: mongo
     ports:
       - '27017:27017'  # Expose MongoDB on default port 27017
+
+# Service definitions:
+# - service-a: Web application A
+# - service-b: Web application B
+# - service-c: Web application C
+# - mongo: MongoDB database instance
