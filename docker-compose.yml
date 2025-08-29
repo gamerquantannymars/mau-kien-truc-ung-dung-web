@@ -31,3 +31,4 @@ services:
 
 # This configuration file defines services for running a multi-container application using Docker Compose.
 # Each service has its own context for building the Docker image and specified ports for access.
+# Update: Ensure clear separation of services to prevent port conflicts.
