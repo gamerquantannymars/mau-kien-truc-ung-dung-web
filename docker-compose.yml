@@ -33,3 +33,4 @@ services:
 # Each service has its own context for building the Docker image and specified ports for access.
 # Update: Ensure clear separation of services to prevent port conflicts.
 # Tip: Verify if the exposed ports align with your local environment to avoid conflicts.
+# Potential enhancement: Consider adding environment variables for database credentials for better security.
